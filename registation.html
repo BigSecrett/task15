@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(249, 227, 141);
+        }
+        table{
+            position: relative;
+            bottom: 220px;
+            left: 50px;
+            border: 0px ridge;
+        }
+        #nr{
+            position: relative;
+            bottom: 220px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">Student Registration Form</h2>
+    <table align="center">
+        <Form>
+            <tr>
+                <td>Registration Number:</td> <td> <input type="number" name="rno"></td><br></tr>
+            <tr>
+                <td>Student Name :</td> <td> <input type="text" name="sname"></td><br></tr>
+            <tr>
+                <td>Date_Of_Birth:</td> <td> <input type="datetime-local"></td><br></tr>
+            <tr>
+                <td>Gender:</td> <td><input type="radio" name="Gender"> Male
+                <input type="radio" name="Gender">Female<br></td></tr>
+           <tr>
+             
+            <td>Address:</td> <td><textarea rows="5" cols="20" name="address"></textarea></td> <br></tr>
+            <tr>
+                <td>Phone Number :</td> <td><input type="tel" name="phno"></td> <br></tr>
+            <tr>
+                <td>E-mail Address:</td> <td><input type="email" name="Mail"></td><br></tr>
+            <tr>
+                <td>url Address:</td> <td><input type="url" name="url"></td><br></tr>
+            <tr>
+                <td>Languages Known: </td> <td><input type="Checkbox" name="lang">English
+                            <input type="checkbox" name="lang">Telugu
+                            <input type="checkbox" name="lang">Hindu</td><br></tr>
+            <tr>
+            <td>course Joined:</td><td><select Name="course">
+                            <option value="java">java</option>
+                            <option value="python">python</option>
+                            <option value="Oracle">oracle</option>
+            </select></td><br></tr>
+
+            <tr>
+                <td>File:</td><td><input type="file" name="file"></td></tr><br>
+            <tr>
+                <td>Search File</td><td><input type="search" name="search"></td></tr><br>
+            <tr>
+                <td>Feed Back</td> <td><input type="range"></td></tr><br>
+            <tr>
+                <td>color Palette </td> <td><input type="color"></td></tr><br>
+            <tr> <td></td> <td><button name="submit"><a style="text-decoration: none;" href="Topics.html">submit</a></button></td></tr>
+        </Form>
+    </table> 
+    <h4 id="nr" style="padding-left: 130px;">Already Have a Account <a style="text-decoration: none;" href="login.html">click here to login</a> </h4>
+</body>
+</html>

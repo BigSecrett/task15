@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(186, 215, 233);
+        }
+    </style>
+</head>
+<body>
+    <h3>Html</h3>
+    <ol>
+        <li>
+            <details>
+                <summary>P Tag, div Tag, a Tag (Anchor), heading tags, Footer Tags: </summary>
+                <ul>
+                <li> Tag (Paragraph):   
+                    The tag is used to define paragraphs in HTML.</li>
+                <li>The div tag is a container that is often used to group other HTML elements and apply styles or scripts to them as a unit.</li>
+                <li>The a tag is used to create hyperlinks, linking to another webpage or resource.</li>
+                <li>
+                Heading tags are used to define headings on a web page, with h1 being the largest and h6 the smallest.</li>
+                <li>The footer tag is typically used to define the footer of a section or a webpage. It often contains   metadata, copyright information, or links to related resources.</li>
+            </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>abbrivations tags, code tags, pre tag, ol tag ,ul tag</summary>
+                <ul>
+                <li>
+                    The abbr tag is used to define abbreviations or acronyms. It often includes a title attribute that provides the full version or explanation when the user hovers over the abbreviation.</li>
+                <li>The code tag is used to define a piece of computer code. It is typically displayed in a monospaced font and is often used to represent code snippets within the text.</li>
+                <li>
+                    The pre tag is used to define preformatted text. Text inside a pre element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks.
+                </li>
+                <li>The ol tag is used to create ordered (numbered) lists. Each list item is wrapped in an li (list item) tag.</li>
+                <li>The ul tag is used to create unordered (bulleted) lists. Like ol, each list item is represented by an li tag.</li>
+                <li>n HTML, the dt tag is typically used as part of a definition list (dl), along with dd (definition description) and dl (definition list) tags.
+                    Here's how the definition list works:
+                    dl Tag (Definition List):
+                    The dl tag is used to define a description list.
+                    dt Tag (Definition Term):
+                    The dt tag is used to define terms (labels/names) in a definition list.
+                    dd Tag (Definition Description):
+                    The dd tag is used to provide the description or definition for the corresponding term in a definition list.</li>
+            </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>b tag, img tag</summary>
+                <ul>
+                    <li>The b tag is a simple inline HTML tag used to apply bold formatting to text. However, it is important to note that the b tag is presentational and doesn't convey any semantic meaning about the enclosed text. For semantic bold text, it is recommended to use the strong tag instead.</li>
+                    <li>The img tag is used to embed images in an HTML document. It does not have a closing tag, and it has attributes such as src (source) to specify the image file's URL and alt to provide alternative text for accessibility.</li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Table Tags</summary>
+                <ul>
+                    <li>
+                        The table tag in HTML is used to create tables on a web page. Tables are a way to organize and display data in rows and columns. The basic structure of an HTML table involves several related tags:
+                        
+                        table: Defines the table itself.
+                        tr: Represents a table row.
+                        th: Defines a table header cell (typically for the first row or first column).
+                        td: Represents a table data (cell) and contains the actual data.
+                    </li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Form Tag</summary>
+                <ul>
+                    <li>In HTML, the form element is used to create an HTML form for user input. Forms are essential for gathering information from users, such as login details, search queries, and other types of user input. The form element can contain various form elements, including text fields, checkboxes, radio buttons, buttons, and more.</li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Audio tag, Video tag</summary>
+                <p>
+                    The audio and video tags in HTML are used to embed audio and video content, respectively, into a web page. These tags provide a standardized way to include multimedia content, and they support various attributes for customization.</p>
+                <ul>
+                    <li>The audio tag is used to embed audio content on a web page.</li>
+                    <li>The video tag is used to embed video content on a web page</li>
+                </ul>
+            </details>
+        </li>
+    </ol>
+    <h3>CSS</h3>
+    <ol>
+        <li>
+            <details>
+                <summary>Inline, internal, External</summary>
+                <ul>
+                    <li>Inline CSS involves applying styles directly to individual HTML elements using the style attribute. This method is suitable for making quick style changes on specific elements.</li>
+                    <li>Internal CSS involves placing the CSS code within a style tag in the head section of an HTML document. This allows you to apply styles to multiple elements within the same HTML file.</li>
+                    <li>External CSS involves placing the CSS code in a separate file with a .css extension. This file is then linked to the HTML document using the link tag. External CSS is useful for maintaining a consistent style across multiple pages.</li>
+                </ul>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>selectors in css</summary>
+                <pre>
+                    1. Universal Selector:
+                    *: Selects all elements on the page.
+                    2. Type (Element) Selector:
+                    element: Selects all elements of a specific type (e.g., p for paragraphs).
+                    3. Class Selector:
+                    .class: Selects all elements with a specific class (e.g., .myClass).
+                    4. ID Selector:
+                    #id: Selects a specific element with a given ID (e.g., #myID).
+                    5. Attribute Selector:
+                    [attribute]: Selects all elements with a specific attribute (e.g., [target]).
+                    [attribute=value]: Selects elements with a specific attribute-value pair (e.g., [type="text"]).
+                    6. Descendant Selector:
+                    ancestor descendant: Selects all descendants of a specific ancestor (e.g., ul li).
+                    7. Child Selector:
+                    parent > child: Selects direct children of a specific parent (e.g., ul > li).
+                    8. Adjacent Sibling Selector:
+                    element + adjacentElement: Selects an element that is immediately preceded by a specific sibling (e.g., h2 + p).
+                    9. General Sibling Selector:
+                    element ~ sibling: Selects all siblings of an element (e.g., h2 ~ p).
+                    10. Grouping Selector:
+                    selector1, selector2: Groups multiple selectors together, applying the same style to each (e.g., h1, h2, h3).
+                    11. Pseudo-classes:
+                    :hover: Selects and styles an element when the mouse is over it.
+                    :active: Selects and styles an element that is being activated (e.g., clicked).
+                    :focus: Selects and styles an element that currently has focus.
+                    :nth-child(n): Selects elements based on their position within a parent (e.g., :nth-child(odd)).
+                    12. Pseudo-elements:
+                    ::before: Inserts content before the selected element.
+                    ::after: Inserts content after the selected element.
+                    ::first-line: Styles the first line of text in a block.
+                    ::first-letter: Styles the first letter of text in a block.
+                </pre>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Flex in css</summary>
+                <pre>
+                    
+In the context of CSS Flexbox, a "flex item" refers to an element that is a direct child of a flex container and participates in a flex container's flex layout.
+
+Here's a brief overview of how it works:
+
+Flex Container:
+
+The container that holds flex items becomes a flex container. This is achieved by applying display: flex; or display: inline-flex; to the container.
+Flex Items:
+
+The direct children of the flex container are the flex items.
+Each flex item can be a block-level or inline-level element, and they will be laid out as flex items inside the flex container.
+Properties for Flex Items:
+
+Various properties can be applied to flex items to control their layout and appearance within the flex container. Some key properties include:
+flex-grow: Defines the ability for a flex item to grow if necessary.
+flex-shrink: Defines the ability for a flex item to shrink if necessary.
+flex-basis: Defines the default size of a flex item.
+order: Specifies the order in which a flex item appears within the flex container.
+                </pre>
+            </details>
+        </li>
+        <li>
+            <details>
+                <summary>Transitions and Animation</summary>
+                <ul>
+                    <li>Transitions provide a way to smoothly animate changes in CSS properties over a specified duration. They are commonly used for hover effects or state changes. Transitions are defined using the transition property.</li>
+                    <li>Animations are more powerful and versatile. They allow for the creation of complex and customized motion effects. Animations are defined using the @keyframes rule and the animation property.</li>
+                </ul>
+            </details>
+        </li>
+    </ol>
+</body>
+</html>
